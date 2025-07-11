@@ -62,7 +62,7 @@ button:hover {
 
 .action {
   padding: 0px 200px;
-  margin: 100px;
+  margin: 100px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,4 +81,36 @@ button:hover {
 
 .wc-mini {
   border-radius: 30px;
+}
+
+.users {
+  margin: 0px 200px;
+  background: rgb(230, 230, 255);
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.users h1 {
+  font-size: 38px;
+  font: bold;
+}
+.user-content {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+  margin-top: 50px;
+}
+
+.users .user-num {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 80px;
+}
+
+.users .user-title {
+  font-size: 20px;
+  padding: 20px 0px;
+  color: #252432;
+  opacity: 50%;
 }
