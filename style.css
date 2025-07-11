@@ -36,7 +36,7 @@ main {
 }
 
 .common-btn {
-  padding: 10px 20px;
+  padding: 15px 30px;
   text-align: center;
   background: var(--primary);
   color: white;
@@ -162,4 +162,34 @@ button:hover {
   font: bold;
   font-weight: 700;
   color: rgb(100, 95, 95);
+}
+
+.focus-sec {
+  background: white;
+  margin: 0px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 150px;
+}
+
+.focus-sec img {
+  border-radius: 50px;
+}
+
+.focus-info {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.focus-info h1 {
+  font: bold;
+  font-size: 50px;
+}
+
+.focus-info p {
+  color: gray;
+  opacity: 50%;
+  margin: 15px 0px;
 }
