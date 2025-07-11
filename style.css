@@ -59,3 +59,26 @@ button:hover {
   padding-top: 200px;
   padding-bottom: 20px;
 }
+
+.action {
+  padding: 0px 200px;
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action h1 {
+  font-size: 42px;
+}
+
+.action p {
+  font-size: 24px;
+  padding: 20px 0px;
+  color: #252432;
+  opacity: 50%;
+}
+
+.wc-mini {
+  border-radius: 30px;
+}
