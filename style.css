@@ -1,0 +1,61 @@
+:root {
+  --primary: #4e47ff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.navsec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  padding: 50px 200px;
+}
+
+.navsec p {
+  font: bolder;
+  font-weight: 900;
+  color: var(--primary);
+  font-size: 34px;
+}
+
+.hero-sec {
+  background-image: url("./assets/Hero-bg.png");
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.common-btn {
+  padding: 10px 20px;
+  text-align: center;
+  background: var(--primary);
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background: yellow;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font: bold;
+  font-size: 64px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
