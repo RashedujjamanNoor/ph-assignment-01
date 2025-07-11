@@ -193,3 +193,61 @@ button:hover {
   opacity: 50%;
   margin: 15px 0px;
 }
+
+.contact-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+  padding: 200px 0px;
+}
+
+.contact-sec h1 {
+  font-size: 97px;
+  font: bold;
+}
+
+.contact-sec label {
+  font: medium;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 5px 20px;
+  width: 500px;
+  height: 70px;
+  grid-row: span;
+  font-size: 20px;
+  color: rgb(48, 47, 47);
+  font: medium;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid rgb(197, 196, 196);
+}
+.message {
+  height: 150px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  text-align: center;
+  background: var(--primary);
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  color: black;
+  background: yellow;
+  transition: all;
+  transition-duration: 500ms;
+}
