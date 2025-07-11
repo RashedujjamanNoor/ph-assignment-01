@@ -110,6 +110,7 @@ button:hover {
   font-weight: 700;
   color: var(--primary);
   font-size: 80px;
+  font-family: "Inter", sans-serif;
 }
 
 .users .user-title {
@@ -211,6 +212,7 @@ button:hover {
   font: medium;
   font-weight: 600;
   margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .inputs {
@@ -230,8 +232,16 @@ input {
   border-radius: 10px;
   border: 2px solid rgb(197, 196, 196);
 }
-.message {
+#message {
+  padding: 5px 20px;
+  width: 500px;
   height: 150px;
+  font-size: 20px;
+  color: rgb(48, 47, 47);
+  font: medium;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid rgb(197, 196, 196);
 }
 
 .submit-btn {
@@ -250,4 +260,46 @@ input {
   background: yellow;
   transition: all;
   transition-duration: 500ms;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+footer h1 {
+  font-size: 100px;
+  font-family: "Inter", sans-serif;
+  font: bolder;
+  color: var(--primary);
+}
+
+footer p {
+  margin: 20px 0px;
+  color: gray;
+  opacity: 50%;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li {
+  color: gray;
+  opacity: 50%;
 }
